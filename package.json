@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiolv/natours.git"
+  },
+  "author": "Caio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiolv/natours/issues"
+  },
+  "homepage": "https://github.com/caiolv/natours#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
