@@ -18,5 +18,6 @@
   "homepage": "https://github.com/caiolv/natours#readme",
   "devDependencies": {
     "node-sass": "^7.0.1"
-  }
+  },
+  "dependencies": {}
 }
