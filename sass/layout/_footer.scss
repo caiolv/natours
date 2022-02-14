@@ -1,5 +1,5 @@
 .footer {
-    background-color: $color-gray-light-3;
+    background-color: $color-gray-dark-3;
     padding: 10rem;
     font-size: 1.4rem;
     color: $color-gray-light-1;
@@ -36,7 +36,7 @@
         &:link,
         &:visited {
             color: $color-gray-light-1;
-            background-color: $color-gray-light-3;
+            background-color: $color-gray-dark-3;
             text-decoration: none;
             text-transform: uppercase;
             display: inline-block;
