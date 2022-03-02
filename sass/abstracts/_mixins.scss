@@ -21,6 +21,8 @@
 [1200 - 1800px]: Normal styles
 1800px+:         Big Deskptop
 
+ORDER: Base + typography > general layout +grid > pge layout > components
+
 $breakpoint argument choices:
 - phone
 - tab-port
@@ -38,6 +40,6 @@ $breakpoint argument choices:
         @media (max-width: 75em) { @content };    //1200px
     }
     @if $breakpoint == big-desktop {
-        @media (max-width: 112.5em) { @content };    //1800px
+        @media (min-width: 112.5em) { @content };    //1800px
     }
 }
